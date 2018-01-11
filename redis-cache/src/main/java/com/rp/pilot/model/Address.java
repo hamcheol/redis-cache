@@ -4,7 +4,7 @@ public class Address {
 	private String nid;
 	private String baseAddress;
 	private String detailAddress;
-	private String zipCd;
+	private String zipCode;
 	private String telNo;
 
 	public String getNid() {
@@ -31,12 +31,12 @@ public class Address {
 		this.detailAddress = detailAddress;
 	}
 
-	public String getZipCd() {
-		return zipCd;
+	public String getZipCode() {
+		return zipCode;
 	}
 
-	public void setZipCd(String zipCd) {
-		this.zipCd = zipCd;
+	public void setZipCode(String zipCode) {
+		this.zipCode = zipCode;
 	}
 
 	public String getTelNo() {
